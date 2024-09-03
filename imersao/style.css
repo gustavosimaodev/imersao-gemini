@@ -61,12 +61,13 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: auto; /* Largura máxima da caixa de resultados - valor original 60rem */
     height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário - Adicionado */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
+    border-radius: 0.8rem; /* Borda arredondada - Valor original 0.6rem */
 }
 
 /* Estiliza cada item de resultado */
