@@ -4,7 +4,9 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    /*background-color: #DDDDDD; /* Cor de fundo da página */
+    background-image: linear-gradient(to right, rgb(96, 96, 250), rgb(234, 156, 253));
+    background-size: cover;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -20,6 +22,12 @@ h1 {
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    /* Minhas inclusões */
+    background: #ffffff2d; /* Cor de fundo dos itens */
+    border-radius: 0.8rem; /* Borda arredondada */
+    padding: 0.5rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 /* Estiliza as seções da página */
@@ -61,8 +69,12 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
+    display: flexbox; /*This property sets the display type of the element to a flex container. This means that the direct child elements of this container will be arranged and sized according to the flexbox layout model.*/
+    /* flex-wrap: wrap; /*This property specifies that if the child elements of the flex container do not fit in a single line, they should wrap to the next line. This prevents the container from overflowing and ensures that all elements are visible.*/
+    /*justify-content: space-between; /*This property distributes the child elements within the flex container with equal gaps between them, aligning the first element to the left edge and the last element to the right edge.*/
     width: auto; /* Largura máxima da caixa de resultados - valor original 60rem */
     height: 46vh; /* Altura máxima da caixa de resultados */
+    vertical-align: center;
     overflow-x: auto; /* Adiciona rolagem horizontal se necessário - Adicionado */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
@@ -72,8 +84,8 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
-    border-radius: 0.6rem; /* Borda arredondada */
+    background: #b0a1fb83; /* Cor de fundo dos itens */
+    border-radius: 0.8rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
@@ -83,6 +95,7 @@ section button:hover {
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
+    text-align: center;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -108,7 +121,7 @@ footer {
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
-    width: 100%; /* Largura total da página */
+    width: 100%; /* Largura total da página - valor original 100%*/
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
