@@ -1,1 +1,1 @@
-console.log("Exemplo");
+console.log(dados[0].titulo);
