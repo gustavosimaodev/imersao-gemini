@@ -17,6 +17,6 @@ https://seguranca-paciente.vercel.app/
 No campo de busca, você pode buscar por alguma palavra chave relacionada a meta; Pode buscar pelo número da meta; Ou digite "todas" para visualizar todas as 6 Metas Internacionais de Segurança do Paciente.
 
 ## Contatos
-LinkedIn: https://www.linkedin.com/in/gustavo-sim%C3%A3o-94723828/
-Github: https://github.com/gustavosimaodev
-E-mail: gs14.dev@gmail.com
+LinkedIn: https://www.linkedin.com/in/gustavo-sim%C3%A3o-94723828/<b>
+Github: https://github.com/gustavosimaodev<b>
+E-mail: gs14.dev@gmail.com<b>
