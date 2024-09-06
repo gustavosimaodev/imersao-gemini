@@ -11,4 +11,5 @@ Este projeto foi fruto de estudo e aprendizado, desenvolvido durante a imersão 
     
 ## Como Utilizar
     Acessar página onde o projeto está hospedado:
+        https://gustavosimaodev.github.io/imersao-gemini/
     
